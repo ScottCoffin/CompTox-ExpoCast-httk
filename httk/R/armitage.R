@@ -288,13 +288,13 @@ armitage_estimate_sarea <- function(tcdata = NA, # optionally supply columns v_w
 #'
 #' library(httk)
 #'
-#' # Check to see if we have info on the chemical:
-#' "80-05-7" %in% get_cheminfo()
-#'
-#' #We do:
-#' temp <- armitage_eval(casrn.vector = c("80-05-7", "81-81-2"), this.FBSf = 0.1,
-#' this.well_number = 384, nomconc = 10)
-#' print(temp$cfree.invitro)
+# Check to see if we have info on the chemical:
+# "80-05-7" %in% get_cheminfo()
+# 
+# #We do:
+# temp <- armitage_eval(casrn.vector = c("80-05-7", "81-81-2"), this.FBSf = 0.1,
+# this.well_number = 384, nomconc = 10)
+# print(temp$cfree.invitro)
 #'
 #' # Check to see if we have info on the chemical:
 #' "793-24-8" %in% get_cheminfo()

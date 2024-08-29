@@ -13,6 +13,7 @@ library(stringr)
 
 # Useful function from HTTK (don't want to load the whole package since we're 
 # trying to build the package here)
+setwd("datatables/")
 source("add_chemtable.R")
 
 set.precision <- function(x, sig.figs=4)
@@ -2723,3 +2724,4 @@ save(Wetmore.data,
 ## Session Information ##
 Sys.time() # capture date and time of generating data
 sessionInfo() # capture package information for generating data
+

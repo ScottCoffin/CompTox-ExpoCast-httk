@@ -1851,3 +1851,4 @@
 #' @seealso \code{\link{load_sipes2017}} 
 #' @keywords data
 "sipes2017"
+
